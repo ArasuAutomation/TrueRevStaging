@@ -33,7 +33,7 @@ public class LoginPageTest {
 		String ActualTitle=driver.getTitle();
 		System.out.println(ActualTitle);
 		driver.findElement(By.xpath("//i[@class='fas fa-sign-out-alt fa-2x']")).click();
-		System.out.println("Successfully Logged out");
+		System.out.println("Successfully Loggedout");
 	}
 	
 	@AfterMethod
